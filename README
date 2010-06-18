@@ -1,15 +1,15 @@
- ______ _______ ______      _______ __                                 __                    _______                                  
-|   __ \   |   |   __ \    |     __|  |_.----..-----..---.-..--------.|__|.-----..-----.    |     __|.-----..----..--.--..-----..----.
-|    __/       |    __/    |__     |   _|   _||  -__||  _  ||        ||  ||     ||  _  |    |__     ||  -__||   _||  |  ||  -__||   _|
-|___|  |___|___|___|       |_______|____|__|  |_____||___._||__|__|__||__||__|__||___  |    |_______||_____||__|   \___/ |_____||__|  
-                                                                                 |_____|                                              
+ _______ __                                 __                    _______                                  
+|     __|  |_.----..-----..---.-..--------.|__|.-----..-----.    |     __|.-----..----..--.--..-----..----*
+|__     |   _|   _||  -__||  _  ||        ||  ||     ||  _  |    |__     ||  -__||   _||  |  ||  -__||   _|
+|_______|____|__|  |_____||___._||__|__|__||__||__|__||___  |    |_______||_____||__|   \___/ |_____||__|  
+                                                      |_____|                                              
 Description
 ===========
-This is a pseudo streaming audio server. It supports the shoutcast protocol for certain players. This will output streaming mpeg for all other players.
+Autonomous pseudo streaming audio server. It supports the shoutcast protocol for mainstream players. This will output streaming mpeg for all other players.
 
 The script does not accept a single audio source, but uses lose audio files instead. It employs a trick to keep all the listeners in sync. Through a shuffled playlist with a fixed seed value, the script will always serve the same audio at the same time.
 
-The advantage is low processor usage, because the audio had not to be transcoded on the fly.
+The advantage is low processor usage, because the audio has not to be transcoded on the fly.
 
 Shoutcast protocol
 ==================
@@ -65,3 +65,8 @@ Recommended players:
 VLC - http://www.videolan.org/vlc/
 iTunes - http://www.apple.nl/itunes/
 Winamp - http://www.winamp.com/
+
+Contact
+=======
+Name: david
+Domain: beople.com
